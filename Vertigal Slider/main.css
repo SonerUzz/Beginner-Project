@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.slider {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.solSlide {
+  position: absolute;
+  width: 30%;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+i {
+  color: black;
+}
+.sağSlide {
+  position: absolute;
+  width: 70%;
+  height: 100%;
+  right: 0;
+  top: 0;
+  transition: transform 0.5s ease-in-out;
+}
+.yazı {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: xx-large;
+}
+
+.resim {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.buttons {
+  position: relative;
+  z-index: 3;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+.next {
+  position: absolute;
+  left: 30%;
+  top: 170px;
+  width: 30px;
+  height: 40px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.prev {
+  position: absolute;
+  width: 30px;
+  height: 40px;
+  left: 368px;
+  top: 210px;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+}
