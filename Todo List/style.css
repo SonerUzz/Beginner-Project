@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(98, 94, 94, 1) 50%,
+    rgba(18, 10, 0, 1) 100%
+  );
+  font-family: "fira sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: white;
+}
+header {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+header h1 {
+  color: darkgray;
+  margin-left: 13rem;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  margin-bottom: 1rem;
+  text-shadow: 5px 5px 1px black;
+}
+.newtaskform {
+  display: flex;
+  justify-content: space-between;
+  background-color: #878f99;
+  border-radius: 2rem;
+  width: 100%;
+  background-color: #878f99;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-size: 1.25rem;
+  margin-right: 1rem;
+  box-shadow: 25px 25px 15px black;
+}
+.taskinput {
+  color: black;
+  width: 100%;
+  font-size: large;
+}
+
+.tasksubmit {
+  margin-right: 1rem;
+
+  border-radius: 2rem;
+}
+
+input,
+button {
+  appearance: none;
+  border: none;
+  outline: none;
+  background-color: #878f99;
+  font-size: large;
+  color: blueviolet;
+  font-size: large;
+  font-weight: 900;
+  text-shadow: 5px 1px 5px black;
+}
+.tasksubmit:hover {
+  color: wheat;
+}
+.delete {
+  color: red;
+}
+button:hover {
+  color: wheat;
+}
+button:active {
+  color: aliceblue;
+}
+main {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+section {
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  color: darkgray;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+.tasks {
+  margin-bottom: 1.25rem;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #878f99;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-size: 1.25rem;
+  box-shadow: 25px 25px 15px black;
+  margin-right: 1rem;
+}
+.content,
+.text {
+  color: black;
+  width: 100%;
+}
+.actions {
+  display: flex;
+  justify-content: space-between;
+}
+.edit {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
